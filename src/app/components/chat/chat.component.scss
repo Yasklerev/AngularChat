@@ -1,0 +1,36 @@
+.card-chats {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  .chat-foreign {
+    width: 90%;
+    display: block !important;
+    text-align: left !important;
+  }
+  .chat-local {
+    width: 90%;
+    display: block !important;
+    text-align: right !important;
+  }
+}
+
+.messages {
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.actions {
+  text-align: right;
+  padding: 20px;
+}
+
+.exit {
+  margin-left: 100% - 10%; 
+}
+
+.img-user {
+  border-radius: 100px;
+  width: 30px;
+  margin: 2px;
+  margin-right: -10px;
+}

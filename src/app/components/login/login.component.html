@@ -1,0 +1,19 @@
+<mat-toolbar color="primary"> FireChat </mat-toolbar>
+
+<mat-card class="card-login">
+  <mat-card-title> Iniciar sesión </mat-card-title>
+  <mat-card-subtitle>
+    Inicia sesión para chatear mediante la cuenta que más te acomode.
+  </mat-card-subtitle>
+  <mat-card-content class="options-login">
+    <button class="buttons-login-goolge" (click)="enter('google')" mat-fab>
+      <small>Google</small>
+    </button>
+    <button class="buttons-login-twitter" (click)="enter('twitter')" mat-fab>
+      <small>Twitter</small>
+    </button>
+    <button class="buttons-login-facebook" (click)="enter('facebook')" mat-fab>
+      <small>Facebook</small>
+    </button>
+  </mat-card-content>
+</mat-card>
